@@ -1,0 +1,19 @@
+{
+  "name": "nsfw",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nsfw",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Afatek Developers <developer@afatek.com.tr>",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "express": "^4.17.1",
+    "jpeg-js": "^0.4.2",
+    "multer": "^1.4.2",
+    "nsfwjs": "^2.3.0"
+  }
+}
